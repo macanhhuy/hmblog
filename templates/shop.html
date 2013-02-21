@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+{% load shop_tags %}
+
+{% products %}
+{% products object_list %}
+{{user}}
+
+
+{% endblock %}

@@ -1,0 +1,4 @@
+{% for category in categories %}
+							<li><a href="{% url blog.views.category category.slug %}">{{ category.title }}</a></li>
+{% endfor %}
+
